@@ -1,0 +1,150 @@
+*{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    background: -webkit-linear-gradient(right,rgb(255, 76, 165) 50%,rgb(2, 139, 244) 50%);
+}
+/* #col1{
+    width: 50%;
+    height: 100%;
+    background-color: pink;
+}
+#col2{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(37, 150, 232);
+} */
+#card{
+    width: 25%;
+    height: 70%;
+    background-color: rgb(71, 71, 71);
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 10px 10px 20px #000;
+}
+#nav{
+    width: 100%;
+    height: 10%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    font-size: 22px;
+    top: 0%;
+}
+#navo{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav i{
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) .5s;
+}
+#cover{
+    width: 100%;
+    height: 40%;
+    position: absolute;
+}
+#cover img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#hero{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+#cir{
+    width: 50%;
+    height: 40%;
+    position: absolute;
+    border-radius: 50%;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,0%);
+    border: 10px solid rgb(71, 71, 71);
+    overflow: hidden;
+}
+#cir img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#text{
+    width: 100%;
+    height: 40%;
+    position: absolute;
+    top: 50%;
+}
+#text h3{
+    font-size: 30px;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%,0);
+    text-transform: capitalize;
+    color: #fff;
+}
+#text h5{
+    font-size: 20px;
+    position: absolute;
+    left: 50%;
+    top: 37%;
+    transform: translate(-50%,0);
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #fff;
+}
+#text p{
+    font-size: 15px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,0);
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #fff;
+}
+#btn{
+    width: 90px;
+    height: 40px;
+    background-color: rgb(2, 139, 244);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%,0);
+    border-radius: 20px;
+transition: all cubic-bezier(0.19, 1, 0.22, 1) .5s;
+}
+#btn a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgb(241, 240, 240);
+}
+#btn:hover{
+    background-color: rgb(255, 76, 165) ;
+}
+#nav i:hover{
+    color: rgb(255, 76, 165);
+}

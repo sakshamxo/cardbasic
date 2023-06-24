@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>friend card</title>
+</head>
+<body>
+    <div id="main">
+      
+        <div id="card">
+            <div id="cover"> <img src="/images/image1.jpg" alt=""> </div>
+            <div id="nav">
+                <i class="ri-arrow-left-line"></i>
+                    <div id="navo">
+                        <i class="ri-heart-line"></i>
+                        <i class="ri-notification-badge-line"></i>
+                    </div>
+            </div>
+            <div id="hero">
+                <div id="cir"><img src="/images/image2.jpg" alt=""></div>
+                <div id="text">
+                    <h3>
+                        <%= name%>
+                    </h3>
+                    <h5>
+                        hello there!
+                    </h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    <div id="btn"><a href="/profile/friends/<%= name%>">my profile</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
